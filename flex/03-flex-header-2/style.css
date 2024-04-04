@@ -46,3 +46,33 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*I'm going to try and put my stuff under here now so I now what I added vs what I didn't */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: o;
+  padding: 0;
+  gap: 20px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.left {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+/*Also note you added classes left and right-side in order to align items etc*/
