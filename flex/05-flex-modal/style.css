@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -20,6 +21,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*this (below) made our modal a flex box and gave us space between items and padding*/
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,7 +38,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /*this stops our icon getting smashed by the other items. keeeps its shape*/
+
 }
+
+/*added this section for our new/changed header class*/
+.header {
+  font-weight: bold;
+  font-size: large;
+  /*added css for header being bold and large (above)*/
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 8px;
+/*the above made our header a flexbox with the close button pushed away 
+and gave us space under our content/close button and the words below*/
+}
+.text {
+  margin-bottom: 16px;
+} /*gave space between my text and the buttons*/
 
 .close-button {
   background: #eee;
