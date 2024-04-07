@@ -28,7 +28,19 @@ input {
 
 ul {
   list-style-type: none; /*removes bullets from lists*/
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 a {
   text-decoration: none; /*removes underlines from the links*/
+  color:rgb(95, 86, 86);
+}
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
