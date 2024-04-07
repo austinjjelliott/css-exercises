@@ -23,7 +23,7 @@ img {
   gap: 52px;
 }
 
-item {
+.item {
   max-width: 200px;
   flex-wrap: wrap;
 }
